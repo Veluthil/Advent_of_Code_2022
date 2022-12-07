@@ -1,15 +1,15 @@
 new_list = []
-elfs_calories = 0
+elves_calories = 0
 
 with open('inputs/input-day1.txt') as f:
     data = f.read().split('\n')
 
     for number in data:
         if number != '':
-            elfs_calories += int(number)
+            elves_calories += int(number)
         else:
-            new_list.append(elfs_calories)
-            elfs_calories = 0
+            new_list.append(elves_calories)
+            elves_calories = 0
 
 # ---- PART ONE ----
 print(f"Elf with the most Calories carries: {max(new_list)} Calories.")
