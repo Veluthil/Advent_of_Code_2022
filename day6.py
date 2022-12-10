@@ -21,6 +21,6 @@ with open('inputs/input-day6.txt') as f:
         if len(fourteens) > 14:
             set_of_fourteen = set(fourteens[-15:-1])
             if len(set_of_fourteen) == 14:
-                print(f"Number of characters needed to prosess in PART TWO: {len(fourteens) - 1}.")
+                print(f"Number of characters needed to process in PART TWO: {len(fourteens) - 1}.")
                 # print(set_of_fourteen)
                 break
